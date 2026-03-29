@@ -1,0 +1,1 @@
+Acknowledgements. The work of A. Ribeiro and I. Hounie is supported by NSF-Simons MoDL, Award 2031985, NSF AI Institutes program, Award 2112665, and NSF HDR TRipods Award 1934960. The work of Dr. Chamon is supported by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) under Germany's Excellence Strategy (EXC 2075-390740016).

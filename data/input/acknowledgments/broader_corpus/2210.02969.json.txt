@@ -1,0 +1,1 @@
+Is this sentence positive? What a great day! Yes No P(y | I, x) P(y | I, x) Is this sentence positive? What a great day! Yes No P(I, x | y) P(I, x | y) What a great day! No What a great day! Yes Is this sentence positive? P(I | x, y) P(I | x, y) Direct Channel Flipped (I, x, y) = (Is this sentence positive?, What a great day!, Yes)

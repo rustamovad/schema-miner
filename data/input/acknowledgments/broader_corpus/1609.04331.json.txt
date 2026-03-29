@@ -1,0 +1,1 @@
+Acknowledgments. We thank Hakan Bilen, Relja Arandjelović, and Soumith Chintala for fruitful discussion and help. This work was supported by the ERC grants VideoWorld and Activia, and the MSR-INRIA laboratory.

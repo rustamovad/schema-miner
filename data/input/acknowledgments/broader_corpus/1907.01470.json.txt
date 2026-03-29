@@ -1,0 +1,1 @@
+We thank Leon Bottou, Omer Levy for their helpful comments and suggestions. We also thank Lowik Chanussot, Jérémy Rapin and other members of Facebook AI Research engineering team for their support in implementing and running the experiments.

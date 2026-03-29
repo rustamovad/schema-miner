@@ -1,0 +1,1 @@
+This work is supported by the ERC Consolidator Grant LEXICAL (no 648909). EMP, IV, and AK are also funded through the Google Faculty Research Award 2018 for Natural Language Processing. GG is supported by the Eliteprogramm of the Baden-Württemberg Stiftung (AGREE Grant). Heartfelt thanks to Fangyu Liu, Ulla Meeri Petti, and Yi Zhu for their invaluable help.

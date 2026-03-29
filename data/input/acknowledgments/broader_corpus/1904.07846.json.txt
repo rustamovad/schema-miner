@@ -1,0 +1,1 @@
+Acknowledgements: We would like to thank Anelia Angelova, Relja Arandjelović, Sergio Guadarrama, Shefali Umrania, and Vincent Vanhoucke for their feedback on the manuscript. We are also grateful to Sourish Chaudhuri for his help with the data collection and Alexandre Passos, Allen Lavoie, Bryan Seybold, and Priya Gupta for their help with the infrastructure.

@@ -1,0 +1,1 @@
+where the W c i ,c j is a joint colour transform function consist of white balance matrix and CCM and γ is the gamma correction's exponential value, ε is a minimum number to keep non-negative. Final as we discussed in Sec.3.1, the input image I i would separately pass by local branch f and global branch g to generate the prediction result Ît = g t ( f (I i )).

@@ -1,0 +1,1 @@
+Acknowledgement This work was supported by grants Leverhulme Trust, EPSRC EP/I001107/2 and ERC 321162-HELIOS. We thank the Caffe team, Baidu IDL, and the Oxford ARC team for their support. We gratefully acknowledge GPU donations from NVIDIA.

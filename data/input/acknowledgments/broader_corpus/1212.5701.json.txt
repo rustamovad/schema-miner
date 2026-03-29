@@ -1,0 +1,1 @@
+Acknowledgements We thank Geoff Hinton, Yoram Singer, Ke Yang, Marc'Aurelio Ranzato and Jeff Dean for the helpful comments and discussions regarding this work.

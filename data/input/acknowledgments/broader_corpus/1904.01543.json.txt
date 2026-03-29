@@ -1,0 +1,1 @@
+We thank Matthias Fey for answering our questions with regard to PYTORCH GEOMETRIC and Xavier Bresson for providing the ZINC dataset. This work is funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) under Germany's Excellence Strategy -EXC-2047/1 -390685813 and under DFG Research Grants Program-RA 3242/1-1-411032549.

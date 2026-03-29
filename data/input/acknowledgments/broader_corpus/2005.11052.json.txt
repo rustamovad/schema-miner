@@ -1,0 +1,1 @@
+This research is supported by the Australian Research Council through the Australian Centre of Excellence for Robotic Vision (CE140100016), and the Sydney Institute for Robotics and Intelligent Systems. The authors would like to thank Mr. Ziang Cheng and Mr. Huangying Zhan for providing help in preparing the testing datasets.

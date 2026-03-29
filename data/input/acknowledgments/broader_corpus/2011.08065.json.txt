@@ -1,0 +1,1 @@
+This work is funded in part by the Research Council of Norway, project number 263248 (Privaton) and project number 282315 (AutoCap). We performed all computations in this paper on equipment provided by the Experimental Infrastructure for Exploration of Exascale Computing (eX 3 ), which is financially supported by the Research Council of Norway under contract 270053.

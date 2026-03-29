@@ -1,0 +1,1 @@
+Acknowledgements We thank Patrick Chao for helpful discussions and Christina Baek and Rishi Veerapaneni for paper feedback. Stability.AI contributed compute to run some experiments. AL is supported by the NSF GRFP DGE1745016 and DGE2140739. This work is supported by NSF IIS-2024594 and ONR MURI N00014-22-1-2773.

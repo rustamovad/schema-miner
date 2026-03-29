@@ -1,0 +1,1 @@
+3 https://aisaka0v0.github.io/CLAPSep demo/ and efficient solution for real-world applications. The integration of pre-trained models, innovative query strategies, and multi-modal training marks a significant advancement in the pursuit of universal sound separation. The availability of our code and pre-trained model also serves as a valuable resource for the research community.

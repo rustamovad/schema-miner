@@ -1,0 +1,1 @@
+We would like to thank Ankur Parikh, Daniel Andor, Emily Pitler, Jacob Devlin, Kristina Toutanova, Ming-Wei Chang, Slav Petrov, Tom Kwiatkowski and the entire Google AI Language team for many valuable suggestions and help in carrying out this work.

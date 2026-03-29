@@ -1,0 +1,1 @@
+We would like to thank Andriy Mnih, Andrew Zisserman, Alex Graves and Carl Doersch for their helpful comments on the paper and Lasse Espeholt for making the A2C baseline available.

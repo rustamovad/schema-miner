@@ -1,0 +1,1 @@
+We thank Jialin Wu, Luowei Zhou for reviewing an early version of this paper. We thank Xi Chen for providing different variants of PaLI pre-trained checkpoints. We also thank Radu Soricut, Anelia Angelova, Fei Sha, Andre Araujo, Vittorio Ferrari, Wei Xu, Kartik Goyal for valuable discussions and feedback on the project. Yang Chen is partially funded by the NSF (IIS-2052498).

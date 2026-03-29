@@ -1,0 +1,1 @@
+Acknowledgements. The project was partially supported by Antoine Miech Google PhD fellowship, the MSR-Inria joint lab, the Louis Vuitton -ENS Chair on Artificial Intelligence, the ERC grant LEAP (No. 336845), the CIFAR Learning in Machines&Brains program, and the European Regional Development Fund under the project IMPACT (reg. no. CZ.02.1.01/0.0/0.0/15 003/0000468).

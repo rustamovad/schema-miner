@@ -1,0 +1,1 @@
+Proposition 2. The lifted path-induced cut inequalities (11) define a strictly tighter relaxation than the path-induced cut inequalities (9).

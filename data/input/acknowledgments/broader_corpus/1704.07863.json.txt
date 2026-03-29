@@ -1,0 +1,1 @@
+This work was partially supported by a Google Research Award Latin America. We are grateful to NVIDIA Corporation for donating the GPUs used in this work.

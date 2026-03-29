@@ -1,0 +1,1 @@
+Acknowledgments. This work was partly supported by ANR project EnHerit ANR-17-CE23-0008, Labex Bézout, and gifts from Adobe to École des Ponts. We thank Gül Varol, Angjoo Kanazawa, and Renaud Marlet for fruitful discussions.

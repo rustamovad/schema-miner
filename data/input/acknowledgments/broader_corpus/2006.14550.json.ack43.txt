@@ -1,0 +1,1 @@
+Which is exactly the right hand side of ( 9). Therefore, any pair of real vectors (y, y ) ∈ [0, 1] E × [0, 1] E that satisfies (11) must satisfy (9).

@@ -1,0 +1,1 @@
+Acknowledgement We would like to thank Dongdong Yu and Enze Xie for the discussion about maskness and dice loss. We also thank Chong Xu and the ByteDance AI Lab team for technical support.

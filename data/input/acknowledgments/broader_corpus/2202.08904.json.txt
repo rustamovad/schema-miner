@@ -1,0 +1,1 @@
+We thank Constantin Eichenberg and Samuel Weinbach for insightful discussions and valuable feedback throughout the project. We thank Robert Baldock, Marco Bellagente and Koen Oostermeijer for reading drafts of this paper. This work has been supported by OpenAI under the academic access program.

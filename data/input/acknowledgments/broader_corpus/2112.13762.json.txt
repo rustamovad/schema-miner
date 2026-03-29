@@ -1,0 +1,1 @@
+Acknowledgments. We thank Marin Oršić, Petra Bevandić, and Siniša Šegvić for sharing their SwiftNet label map predictions from the 2020 Robust Vision Challenge.

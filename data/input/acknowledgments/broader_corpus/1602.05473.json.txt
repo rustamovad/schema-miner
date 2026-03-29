@@ -1,0 +1,1 @@
+We thank Durk P. Kingma and Shakir Mohamed for helpful discussions. This was supported by the Novo Nordisk Foundation, Danish Innovation Foundation and the NVIDIA Corporation with the donation of TITAN X and Tesla K40 GPUs.

@@ -1,0 +1,1 @@
+We prove that there exists (y, y ) ∈ [0, 1] E × [0, 1] E such that (y, y ) satisfies (8) and does not satisfy (10). See the graph in Figure 2 . There are four possible paths from v to w in G. If we use Constraints (8), all the paths give us the same lower bound on y vw y vw ≥ 1 -0.5 -0.5 = 0 .

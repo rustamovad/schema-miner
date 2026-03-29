@@ -1,0 +1,1 @@
+Acknowledgements We thank Hervé Jégou and Francisco Massa for helpful discussions. SD and GB acknowledge funding from the French government under management of Agence Nationale de la Recherche as part of the "Investissements d'avenir" program, reference ANR-19-P3IA-0001 (PRAIRIE 3IA Institute).

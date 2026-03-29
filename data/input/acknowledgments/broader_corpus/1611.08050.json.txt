@@ -1,0 +1,1 @@
+We acknowledge the effort from the authors of the MPII and COCO human pose datasets. These datasets make 2D human pose estimation in the wild possible. This research was supported in part by ONR Grants N00014-15-1-2358 and N00014-14-1-0595.

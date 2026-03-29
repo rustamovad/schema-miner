@@ -1,0 +1,1 @@
+The authors would like to thank Dave Zhenyu Chen for his insightful ScanRefer project and help on data collection, Wenjuan Han for discussions on data collection and model design. This project is supported by National Key R&D Program of China (2021ZD0150200).

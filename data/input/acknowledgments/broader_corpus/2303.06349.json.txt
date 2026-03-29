@@ -1,0 +1,1 @@
+The authors would like to thank Michalis Titsias, Aleksandar Botev, James Martens and Yee Whye Teh for the interesting discussions and perspectives on our work.

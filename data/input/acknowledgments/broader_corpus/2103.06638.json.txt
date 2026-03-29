@@ -1,0 +1,1 @@
+This research received partial support from the EU H2020 TrimBot2020 project (grant no. 688007). We would like to thank the Center for Information Technology of the University of Groningen for their support and for providing access to the Peregrine HPC cluster. Finally, we would like to thank Dr. Manuel L ópez Antequera for his assistance with the MSLS dataset.

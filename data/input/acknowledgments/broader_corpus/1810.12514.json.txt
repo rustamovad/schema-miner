@@ -1,0 +1,1 @@
+We thank Eugene M. Taranta II, Amir Gholaminejad, Alaleh Razmjoo, Mehdi Sajjadi and Kihwan Kim for the helpful discussions and the ICE lab members at UCF for their support. Portions of this research used the NTU RGB+D Action Recognition Dataset [46] made available by the ROSE Lab at the Nanyang Technological University, Singapore.

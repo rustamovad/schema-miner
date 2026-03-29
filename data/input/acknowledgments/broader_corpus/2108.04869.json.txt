@@ -1,0 +1,1 @@
+We would like to thank Bastian Wandt, Nori Kanazawa and Diego Ruspini for help with CanonPose [44] , stacked hourglass pose estimator, and interfacing with AniPose, respectively.
