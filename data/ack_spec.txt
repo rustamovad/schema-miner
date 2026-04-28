@@ -1,0 +1,27 @@
+We would like to thank Yann Dauphin, Vincent Dumoulin, Aaron Courville, Kyle Kastner, Dustin Webb, Li Yao and Aaron Van den Oord for discussions and feedback. Vincent Dumoulin provided code for visualization. We are grateful towards the developers of Theano (Bergstra et al., 2011; Bastien et al., 2012) and Pylearn2 (Goodfellow et al., 2013) , and for the computational resources
+
+Acknowledgments. This work was supported by the National Key R&D Program of China (Grant NO. 2022YFF1202903) and the National Natural Science Foundation of China (Grant NO. 62122035 and 61972188).
+
+Acknowledgements. This work was supported by the MSIT, Korea, under the ICT Creative Consilience program (IITP-2023-2020-0-01819) supervised by the IITP and the Virtual Engineering Platform Project (P0022336) of the Ministry of Trade, Industry and Energy (MOTIE), Korea.
+
+This work was supported by the Data Centric Science Research Commons Project at the Research Organization of Information and Systems and by the Japan Society for the Promotion of Science KAKENHI Grant Number 13F03041.
+
+We thank Emo Todorov and Yuval Tassa for providing the MuJoCo simulator; Bruno Scherrer, Tom Erez, Greg Wayne, and the anonymous ICML reviewers for insightful comments, and Vitchyr Pong and Shane Gu for pointing our errors in a previous version of the manuscript. This research was funded in part by the Office of Naval Research through a Young Investigator Award and under grant number N00014-11-1-0688, DARPA through a Young Faculty Award, by the Army Research Office through the MAST program.
+
+Acknowledgements. We would like to acknowledge the countless hours of effort provided by the workers on Amazon Mechanical Turk. This work was supported in part by the The Paul G. Allen Family Foundation via an award to D.P., ICTAS at Virginia Tech via awards to D.B. and D.P., Google Faculty Research Awards to D.P. and D.B., the National Science Foundation CAREER award to D.B., the Army Research Office YIP Award to D.B., and a Office of Naval Research grant to D.B.
+
+Acknowledgments: We would like to acknowledge the research group of Paul Bendich at Duke University for allowing us access to a persistent homology package which greatly reduced computational time and made analysis of large point clouds feasible. This code can be accessed via GitLab after submitting a request to Paul Bendich. This research is partially supported by the National Science Foundation under Grants No. DMS-1228308, DMS-1322508, NSF DMS-1115668, NSF DMS-1412674, and DMR-1305449 as well as the DOD-USAF under Award Number FA9550-12-1-0408.
+
+Acknowledgments We thank Brendan O'Connor, Swabha Swayamdipta, and Brian Roark for feedback on drafts of this paper, and Jan Buys, Phil Blunsom, and Yue Zhang for help with data preparation. This work was sponsored in part by the Defense Advanced Research Projects Agency (DARPA) Information Innovation Office (I2O) under the Low Resource Languages for Emergent Incidents(LORELEI) program issued by DARPA/I2O under Contract No. HR0011-15-C-0114; it was also supported in part by Contract No. W911NF-15-1-0543 with the DARPA and the Army Research Office (ARO). Approved for public release, distribution unlimited. The views expressed are those of the authors and do not reflect the official policy or position of the Department of Defense or the U.S. Government. Miguel Ballesteros was supported by the European Commission under the contract numbers FP7-ICT-610411 (project MULTISENSOR) and H2020-RIA-645012 (project KRISTINA).
+
+Acknowledgments B.G. is partially supported by NSF IIS-1566511. Others are partially supported by USC Annenberg Graduate Fellowship, NSF IIS-1065243, 1451412, 1513966, 1208500, CCF-1139148, a Google Research Award, an Alfred. P. Sloan Research Fellowship and ARO# W911NF-12-1-0241 and W911NF-15-1-0484.
+
+Acknowledgements. We gratefully acknowledge the Clinical Excellence Research Center (CERC) at Stanford Medicine and thank the Office of Naval Research, Multidisciplinary University Research Initiatives Program (ONR MURI) for their support.
+
+The authors would like to acknowledge the following agencies for research funding and computing support: the Nuance Foundation, Samsung, NSERC, Calcul Québec, Compute Canada, the Canada Research Chairs and CIFAR. Experiments were carried out using the Theano (Team et al., 2016) and the Blocks and Fuel (van Merriënboer et al., 2015) libraries for scientific computing. We thank David Krueger, Saizheng Zhang, Ishmael Belghazi and Yoshua Bengio for discussions and suggestions.
+
+We would like to express our deep gratitude to Dr. Ali Diba the CTO of Sensifai for his great help and cooperation in this work. We also would like to express our great appreciation to Dr. Hamed Pirsiavash for his insightful comments and constructive suggestions. We would also like to thank Dr. Reza Saadati, and Dr. Javad Vahidi for their valuable help in the early stages of the work.
+
+Acknowledgments: Thanks to Bharat Singh and the group at MERL for discussions on their dataset and for letting us use the spatiotemporal features as input into our model. We also thank Alexander Richard for his 50 Salads predictions.
+
+Acknowledgements: Emily Denton is supported by a Google Fellowship. Rob Fergus is grateful for the support of CIFAR.
