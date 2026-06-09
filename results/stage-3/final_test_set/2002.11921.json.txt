@@ -1,0 +1,1 @@
+We are grateful to Shikhar Jaiswal and Aayan Kumar for their assistance in the deployment of RNNPool models on Cortex-M4 devices. We also thank Sahil Bhatia, Ali Farhadi, Sachin Goyal, Max Horton, Sham Kakade and Ajay Manchepalli for helpful discussions and feedback. Aditya Kusupati did a part of this work during his research fellowship at Microsoft Research India.

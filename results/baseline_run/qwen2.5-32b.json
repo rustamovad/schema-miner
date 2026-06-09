@@ -1,0 +1,193 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Scientific Acknowledgment Schema",
+    "description": "A JSON schema for extracting and representing acknowledgments in scientific publications.",
+    "type": "object",
+    "properties": {
+        "acknowledgments": {
+            "type": "array",
+            "description": "An array of acknowledgment entries.",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "individualsAcknowledged": {
+                        "type": "array",
+                        "description": "Individuals acknowledged for their contributions to the research, including reviewers and other contributors.",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "name": {
+                                    "type": "string",
+                                    "description": "The name of the individual being acknowledged."
+                                },
+                                "role": {
+                                    "type": "string",
+                                    "description": "The role or contribution of the individual in the research.",
+                                    "enum": [
+                                        "discussion",
+                                        "feedback",
+                                        "code",
+                                        "visualization",
+                                        "data_preparation",
+                                        "error_correction",
+                                        "insightful_comments",
+                                        "support",
+                                        "help",
+                                        "cooperation",
+                                        "comments",
+                                        "suggestions"
+                                    ]
+                                },
+                                "details": {
+                                    "type": "string",
+                                    "description": "Additional details about the individual's contribution."
+                                }
+                            },
+                            "required": [
+                                "name",
+                                "role"
+                            ]
+                        }
+                    },
+                    "fundingSources": {
+                        "type": "array",
+                        "description": "Funding sources supporting the research.",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "sourceName": {
+                                    "type": "string",
+                                    "description": "The name of the funding source."
+                                },
+                                "grantNumbers": {
+                                    "type": "array",
+                                    "description": "An array of grant numbers or identifiers provided by the funding source, if applicable.",
+                                    "items": {
+                                        "type": "string"
+                                    }
+                                },
+                                "contributionType": {
+                                    "type": "string",
+                                    "description": "The type of contribution from the funding source (e.g., cash or in-kind).",
+                                    "enum": [
+                                        "cash",
+                                        "in_kind"
+                                    ]
+                                },
+                                "details": {
+                                    "type": "string",
+                                    "description": "Details about the contribution from the specific funding source."
+                                }
+                            },
+                            "required": [
+                                "sourceName"
+                            ]
+                        }
+                    },
+                    "governmentAcknowledgment": {
+                        "type": "object",
+                        "properties": {
+                            "agencyName": {
+                                "type": "string",
+                                "description": "The name of the government agency providing support."
+                            },
+                            "contractDetails": {
+                                "type": "string",
+                                "description": "Contract details, including contract number and any additional information."
+                            },
+                            "disclaimer": {
+                                "type": "string",
+                                "description": "A disclaimer statement regarding the views and conclusions contained in the publication."
+                            }
+                        },
+                        "required": [
+                            "agencyName"
+                        ]
+                    },
+                    "specificFundingAcknowledgment": {
+                        "type": "array",
+                        "description": "Specific funding acknowledgments with grant numbers and details.",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "sourceName": {
+                                    "type": "string",
+                                    "description": "The name of the funding source."
+                                },
+                                "grantNumbers": {
+                                    "type": "array",
+                                    "description": "An array of grant numbers or identifiers provided by the funding source, if applicable.",
+                                    "items": {
+                                        "type": "string"
+                                    }
+                                },
+                                "details": {
+                                    "type": "string",
+                                    "description": "Details about the contribution from the specific funding source."
+                                }
+                            },
+                            "required": [
+                                "sourceName",
+                                "grantNumbers"
+                            ]
+                        }
+                    },
+                    "softwareAcknowledgment": {
+                        "type": "array",
+                        "description": "Software packages acknowledged for their contributions to the research.",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "name": {
+                                    "type": "string",
+                                    "description": "The name of the software package."
+                                },
+                                "version": {
+                                    "type": "string",
+                                    "description": "The version number or identifier of the software used in the research."
+                                },
+                                "details": {
+                                    "type": "string",
+                                    "description": "Additional details about the use of the software, such as specific functionalities utilized."
+                                }
+                            },
+                            "required": [
+                                "name"
+                            ]
+                        }
+                    },
+                    "institutionalAcknowledgment": {
+                        "type": "array",
+                        "description": "Institutional acknowledgments for support or resources provided.",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "name": {
+                                    "type": "string",
+                                    "description": "The name of the institution providing support."
+                                },
+                                "details": {
+                                    "type": "string",
+                                    "description": "Details about the type and nature of support provided by the institution."
+                                }
+                            },
+                            "required": [
+                                "name"
+                            ]
+                        }
+                    }
+                },
+                "required": [
+                    "individualsAcknowledged",
+                    "fundingSources",
+                    "governmentAcknowledgment",
+                    "softwareAcknowledgment",
+                    "institutionalAcknowledgment"
+                ]
+            }
+        }
+    },
+    "required": [
+        "acknowledgments"
+    ]
+}

@@ -1,0 +1,177 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Scientific Acknowledgment Schema",
+    "description": "A JSON schema for extracting and representing acknowledgments in scientific publications.",
+    "type": "object",
+    "properties": {
+        "acknowledgments": {
+            "type": "array",
+            "description": "An array of acknowledgment entries.",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "individuals": {
+                        "type": "array",
+                        "description": "Individual contributors acknowledged in the research.",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "name": {
+                                    "type": "string",
+                                    "description": "The name of the individual being acknowledged."
+                                },
+                                "role": {
+                                    "type": "string",
+                                    "description": "The role or contribution of the individual in the research.",
+                                    "enum": [
+                                        "discussion",
+                                        "feedback",
+                                        "code",
+                                        "visualization",
+                                        "data_preparation",
+                                        "error_correction",
+                                        "insightful_comments",
+                                        "support",
+                                        "help",
+                                        "cooperation",
+                                        "comments",
+                                        "suggestions",
+                                        "model_design"
+                                    ]
+                                }
+                            },
+                            "required": [
+                                "name"
+                            ]
+                        }
+                    },
+                    "organizations": {
+                        "type": "array",
+                        "description": "Organizations acknowledged in the research.",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "entity": {
+                                    "type": "string",
+                                    "description": "The name or identifier of the organization being acknowledged."
+                                },
+                                "role": {
+                                    "type": "string",
+                                    "description": "The role or contribution of the entity in the research.",
+                                    "enum": [
+                                        "discussion",
+                                        "feedback",
+                                        "code",
+                                        "visualization",
+                                        "data_preparation",
+                                        "error_correction",
+                                        "insightful_comments",
+                                        "support",
+                                        "help",
+                                        "cooperation",
+                                        "comments",
+                                        "suggestions",
+                                        "model_design"
+                                    ]
+                                }
+                            },
+                            "required": [
+                                "entity"
+                            ]
+                        }
+                    },
+                    "funding": {
+                        "type": "array",
+                        "description": "Funding sources supporting the research.",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "fundingBody": {
+                                    "type": "string",
+                                    "description": "The name of the funding body or organization."
+                                },
+                                "grantNumber": {
+                                    "type": "string",
+                                    "description": "The grant number or identifier provided by the funding body."
+                                }
+                            },
+                            "required": [
+                                "fundingBody",
+                                "grantNumber"
+                            ]
+                        }
+                    },
+                    "resources": {
+                        "type": "array",
+                        "description": "Resources used in the research.",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "resourceName": {
+                                    "type": "string",
+                                    "description": "The name of the resource."
+                                },
+                                "resourceType": {
+                                    "type": "string",
+                                    "description": "The type of resource (e.g., computing cluster, testbed)."
+                                },
+                                "provider": {
+                                    "type": "string",
+                                    "description": "The provider or organization managing the resource."
+                                }
+                            },
+                            "required": [
+                                "resourceName",
+                                "resourceType"
+                            ]
+                        }
+                    },
+                    "hardware_donations": {
+                        "type": "array",
+                        "description": "Hardware donations supporting the research.",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "donor": {
+                                    "type": "string",
+                                    "description": "The name of the donor or organization providing the hardware."
+                                },
+                                "hardware": {
+                                    "type": "string",
+                                    "description": "The type or model of the donated hardware."
+                                }
+                            },
+                            "required": [
+                                "donor"
+                            ]
+                        }
+                    },
+                    "datasets": {
+                        "type": "array",
+                        "description": "Datasets used in the research.",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "datasetName": {
+                                    "type": "string",
+                                    "description": "The name of the dataset."
+                                },
+                                "datasetProvider": {
+                                    "type": "string",
+                                    "description": "The provider or organization managing the dataset."
+                                }
+                            },
+                            "required": [
+                                "datasetName"
+                            ]
+                        }
+                    }
+                },
+                "required": []
+            }
+        }
+    },
+    "required": [
+        "acknowledgments"
+    ]
+}

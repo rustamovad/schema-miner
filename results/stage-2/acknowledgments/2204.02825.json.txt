@@ -1,0 +1,1 @@
+The authors would like to thank PhD candidate Yang Long and Prof. Gui-Song Xia for providing the MillionAID dataset and PhD candidate Qiming Zhang for offering the ViTAE series models. This work was done by Di Wang as the research intern in JD Explore Academy.

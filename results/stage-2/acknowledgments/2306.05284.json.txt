@@ -1,0 +1,1 @@
+The authors would like to thank Mary Williamson, Rashel Moritz and Joelle Pineau for supporting this project, thank Justin Luk, Prash Jain, Sidd Srinivasan, Rod Duenes, and Philip Woods for the dataset, and thank the xformers team: Daniel Haziza, Francisco Massa, and Michael Ramamonjisoa for the technical discussions.

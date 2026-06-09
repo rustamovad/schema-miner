@@ -1,0 +1,1 @@
+In SEPC-Lite, we use a normal conv2D on P3 and deform it through P4-P7. Notice that

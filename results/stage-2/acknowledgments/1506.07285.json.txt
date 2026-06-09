@@ -1,0 +1,1 @@
+Jane went to the hallway. I:Mary walked to the bathroom. I:Sandra went to the garden. I:Daniel went back to the garden. I:Sandra took the milk there. Q: Where is the milk? A: garden I:It started boring, but then it got interesting. Q: What's the sentiment?

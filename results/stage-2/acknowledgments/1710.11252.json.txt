@@ -1,0 +1,1 @@
+The authors would like to thank Matt Johnson for providing feedback on an early draft of the paper, and Alex Lee for fixing bugs in the deterministic version of the model. This material is based upon work supported by the National Science Foundation under award no. 1725729 and was partially done while author was interning at Google Brain.

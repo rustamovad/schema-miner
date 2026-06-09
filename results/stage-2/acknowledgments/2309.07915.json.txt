@@ -1,0 +1,1 @@
+BLIP-2 BLIP-2 (Li et al., 2023d) bridges the modality gap with a lightweight Querying Transformer, which is pre-trained in two stages. The first stage bootstraps vision-language representation learning from a frozen image encoder. The second stage bootstraps vision-to-language generative learning from a frozen language model.

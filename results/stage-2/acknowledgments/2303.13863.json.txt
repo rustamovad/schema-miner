@@ -1,0 +1,1 @@
+environments. We envisioned that unified solutions which combine mechanisms for automatic stress detection, glucose level detection, and fall detection in the healthcare cyber-physical system (H-CPS) can improve quality of live significantly [45] , [7] , [40] , [41] .

@@ -1,0 +1,1 @@
+We would like to thank Scott Yak, Eugen Hotaj, Vitaly Kuznetsov, Mehryar Mohri, and Corinna Cortes for their insights and advice during this project. We also extend a special thanks to our collaborators, residents and interns Gus Kristiansen, Galen Chuang, Ghassen Jerfel, Ben Adlam and the many others at Google and beyond who helped us shape AdaNet (Weill et al., 2018) .

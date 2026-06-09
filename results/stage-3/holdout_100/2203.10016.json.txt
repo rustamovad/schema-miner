@@ -1,0 +1,1 @@
+Acknowledgment This work was supported by the National Centre of Competence in Research (NCCR) Robotics through the Swiss National Science Foundation (SNSF) and the European Research Council (ERC) under grant agreement No. 864042 (AGILEFLIGHT).

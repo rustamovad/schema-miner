@@ -1,0 +1,1 @@
+Acknowledgments. We thank Thomas Neff, Yu-Lun Liu, and Xiaoming Zhao for valuable feedback and discussions, Zhaoyang Lv for help with comparisons [24] , and Liangchen Song for providing information about the Google Immersive Video dataset [9] used in NeRFPlayer [53] . Matthew O'Toole acknowledges support from NSF IIS-2008464.

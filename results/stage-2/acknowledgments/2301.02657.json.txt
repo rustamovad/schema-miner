@@ -1,0 +1,1 @@
+Acknowledgments. This project was partially funded by ERC CoG DeeVise (ERC-2017-COG-773161) and BMBF project NeuroSys-D (03ZU1106DA). Compute resources were granted by RWTH Aachen under project ID supp0003, and by the Gauss Centre for Supercomputing e.V. through the John von Neumann Institute for Computing on the GCS Supercomputer JUWELS at Jülich Supercomputing Centre.

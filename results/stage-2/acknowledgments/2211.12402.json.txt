@@ -1,0 +1,1 @@
+We sincerely thank our colleagues at ByteDance, Tao Kong, for his constructive and detailed feedback on this work, and Jiaze Chen for his generous assistance in the training of X 2 -VLM.

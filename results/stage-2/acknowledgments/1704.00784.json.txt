@@ -1,0 +1,1 @@
+We thank Jan Chorowski, Mark Daoust, Pietro Kreitlon Carolino, Dieterich Lawson, Navdeep Jaitly, George Tucker, Quoc V. Le, Kelvin Xu, Cinjon Resnick, Melody Guan, Matthew D. Hoffman, Jeffrey Dean, Kevin Swersky, Ashish Vaswani, and members of the Google Brain team for helpful discussions and insight.

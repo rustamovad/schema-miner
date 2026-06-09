@@ -1,0 +1,1 @@
+We would like to thank Bei Liu for HD-VILA-100M data support. We also thank Shi Dong, Mahmoud Khademi, Junheng Hao, Yuwei Fang, Yichong Xu and Azure Cognitive Services Research team members for their feedback.

@@ -1,0 +1,1 @@
+Acknowledgements: This work was supported in part by SERB-STAR Project (Project:STR/2020/000128), Govt. of India and a Google Research Award. Harsh Rangwani is supported by Prime Minister's Research Fellowship (PMRF). We thank Lavish Bansal for help with StyleGAN experiments.

@@ -1,0 +1,1 @@
+Acknowledgments The 2018 PIRM Challenge on Perceptual SR was sponsored by Huawei and Mediatek.

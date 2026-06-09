@@ -1,0 +1,1 @@
+Acknowledgement. The authors gratefully acknowledge the support of Stanford Graduate Fellowship, NSF grants IIS-1528025 and DMS-1546206, ONR MURI grant N00014-13-1-0341, a Google Focused Research award, the Max Planck Center for Visual Computing and Communications and hardware donations by NVIDIA.

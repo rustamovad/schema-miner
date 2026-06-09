@@ -1,0 +1,204 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Scientific Acknowledgment Schema",
+    "description": "A JSON schema for extracting and representing acknowledgments in scientific publications.",
+    "type": "object",
+    "properties": {
+        "acknowledgments": {
+            "type": "array",
+            "description": "An array of acknowledgment entries.",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "individuals": {
+                        "type": "array",
+                        "description": "Individual contributors acknowledged in the research.",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "name": {
+                                    "type": "string",
+                                    "description": "The name of the individual being acknowledged."
+                                },
+                                "role": {
+                                    "type": "array",
+                                    "description": "Roles or contributions of the individual in the research.",
+                                    "items": {
+                                        "type": "string"
+                                    }
+                                },
+                                "affiliation": {
+                                    "type": "string",
+                                    "description": "(Optional) The affiliation of the individual."
+                                }
+                            },
+                            "required": [
+                                "name",
+                                "role"
+                            ]
+                        }
+                    },
+                    "organizations": {
+                        "type": "array",
+                        "description": "Organizations acknowledged in the research.",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "entity": {
+                                    "type": "string",
+                                    "description": "The name or identifier of the organization being acknowledged."
+                                },
+                                "role": {
+                                    "type": "array",
+                                    "description": "Roles or contributions of the entity in the research.",
+                                    "items": {
+                                        "type": "string"
+                                    }
+                                },
+                                "affiliation": {
+                                    "type": "string",
+                                    "description": "(Optional) The affiliation of the organization."
+                                }
+                            },
+                            "required": [
+                                "entity",
+                                "role"
+                            ]
+                        }
+                    },
+                    "funding": {
+                        "type": "array",
+                        "description": "Funding sources supporting the research.",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "body": {
+                                    "type": "string",
+                                    "description": "The name of the funding body or organization."
+                                },
+                                "grantNumber": {
+                                    "type": "array",
+                                    "description": "Grant numbers or identifiers provided by the funding body.",
+                                    "items": {
+                                        "type": "string"
+                                    }
+                                }
+                            },
+                            "required": [
+                                "body",
+                                "grantNumber"
+                            ]
+                        }
+                    },
+                    "hardware_donations": {
+                        "type": "array",
+                        "description": "Hardware donations acknowledged in the research.",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "donor": {
+                                    "type": "string",
+                                    "description": "The name of the donor organization."
+                                },
+                                "hardwareDetails": {
+                                    "type": "array",
+                                    "description": "Details about the hardware donated.",
+                                    "items": {
+                                        "type": "string"
+                                    }
+                                }
+                            },
+                            "required": [
+                                "donor",
+                                "hardwareDetails"
+                            ]
+                        }
+                    },
+                    "reviewers_and_senior_area_chairs": {
+                        "type": "array",
+                        "description": "Reviewers and senior area chairs acknowledged in the research.",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "name": {
+                                    "type": "string",
+                                    "description": "(Optional) The name of the reviewer or senior area chair."
+                                },
+                                "role": {
+                                    "type": "array",
+                                    "description": "Roles such as 'reviewer', 'meta-reviewer', 'senior area chair'.",
+                                    "items": {
+                                        "type": "string"
+                                    }
+                                }
+                            },
+                            "required": [
+                                "role"
+                            ]
+                        }
+                    },
+                    "projects_and_centers": {
+                        "type": "array",
+                        "description": "Projects and research centers acknowledged in the research.",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "name": {
+                                    "type": "string",
+                                    "description": "The name of the project or center."
+                                },
+                                "role": {
+                                    "type": "array",
+                                    "description": "Roles or contributions of the entity in the research.",
+                                    "items": {
+                                        "type": "string"
+                                    }
+                                },
+                                "affiliation": {
+                                    "type": "string",
+                                    "description": "(Optional) The affiliation of the project or center."
+                                }
+                            },
+                            "required": [
+                                "name",
+                                "role"
+                            ]
+                        }
+                    },
+                    "software_frameworks": {
+                        "type": "array",
+                        "description": "Software frameworks acknowledged in the research.",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "frameworkName": {
+                                    "type": "string",
+                                    "description": "The name of the software framework used."
+                                },
+                                "website": {
+                                    "type": "string",
+                                    "description": "(Optional) The website or URL where more information about the framework can be found."
+                                }
+                            },
+                            "required": [
+                                "frameworkName"
+                            ]
+                        }
+                    }
+                },
+                "required": [
+                    "individuals",
+                    "organizations",
+                    "funding",
+                    "hardware_donations",
+                    "reviewers_and_senior_area_chairs",
+                    "projects_and_centers",
+                    "software_frameworks"
+                ]
+            }
+        }
+    },
+    "required": [
+        "acknowledgments"
+    ]
+}

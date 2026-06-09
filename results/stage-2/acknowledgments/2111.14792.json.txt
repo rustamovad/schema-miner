@@ -1,0 +1,1 @@
+Acknowledgments: We thank Or Kedar and Nir Zabari for their assistance in parts of this research. We thank PlotQA [20] authors for sharing additional breakdowns. This work was supported in part by the Israel Science Foundation (grant 2492/20).

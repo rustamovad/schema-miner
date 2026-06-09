@@ -1,0 +1,1 @@
+We would like to thank Aäron van den Oord, Sander Dieleman, Erich Elsen, Guillaume Desjardins, Michael Figurnov, Nikolay Savinov, Omar Rivasplata, Relja Arandjelović, and Rishub Jain for helpful discussions and guidance. Additionally, we would like to thank Blake Hechtman, Tim Shen, Peter Hawkins, and James Bradbury for assistance with developing highly performant JAX code.

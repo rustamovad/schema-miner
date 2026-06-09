@@ -1,0 +1,1 @@
+Acknowledgements. We thank the reviewers for their valuable comments, Torsten Sattler for helping to evaluate the localization, and Eduard Trulls for providing support for the SfM dataset.

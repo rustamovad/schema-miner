@@ -1,0 +1,294 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Scientific Acknowledgment Schema",
+    "description": "A JSON schema for extracting and representing acknowledgments in scientific publications.",
+    "type": "object",
+    "properties": {
+        "acknowledgments": {
+            "type": "array",
+            "description": "An array of acknowledgment entries.",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "individualsAcknowledged": {
+                        "type": "array",
+                        "description": "Individuals acknowledged for their contributions to the research, including reviewers and other contributors.",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "name": {
+                                    "type": "string",
+                                    "description": "The name of the individual being acknowledged."
+                                },
+                                "role": {
+                                    "type": "string",
+                                    "description": "The role or contribution of the individual in the research.",
+                                    "enum": [
+                                        "discussion",
+                                        "feedback",
+                                        "code",
+                                        "visualization",
+                                        "data_preparation",
+                                        "error_correction",
+                                        "insightful_comments",
+                                        "support",
+                                        "help",
+                                        "cooperation",
+                                        "comments",
+                                        "suggestions"
+                                    ]
+                                },
+                                "specificContribution": {
+                                    "type": "string",
+                                    "description": "A specific contribution or task the individual performed, such as creating an illustration."
+                                }
+                            },
+                            "required": [
+                                "name",
+                                "role"
+                            ]
+                        }
+                    },
+                    "fundingSources": {
+                        "type": "array",
+                        "description": "Funding sources supporting the research.",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "sourceName": {
+                                    "type": "string",
+                                    "description": "The name of the funding source."
+                                },
+                                "grantNumbers": {
+                                    "type": "array",
+                                    "description": "An array of grant numbers or identifiers provided by the funding source, if applicable.",
+                                    "items": {
+                                        "type": "string"
+                                    }
+                                }
+                            },
+                            "required": [
+                                "sourceName"
+                            ]
+                        }
+                    },
+                    "datasetsAcknowledged": {
+                        "type": "array",
+                        "description": "Datasets acknowledged for their contributions to the research.",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "datasetName": {
+                                    "type": "string",
+                                    "description": "The name of the dataset."
+                                },
+                                "provider": {
+                                    "type": "string",
+                                    "description": "The provider or organization managing the dataset."
+                                }
+                            },
+                            "required": [
+                                "datasetName",
+                                "provider"
+                            ]
+                        }
+                    },
+                    "awardsAndFellowships": {
+                        "type": "array",
+                        "description": "Awards and fellowships acknowledged for their contributions to the research.",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "awardOrFellowshipName": {
+                                    "type": "string",
+                                    "description": "The name of the award or fellowship."
+                                },
+                                "grantNumbers": {
+                                    "type": "array",
+                                    "description": "An array of grant numbers or identifiers provided by the funding source, if applicable.",
+                                    "items": {
+                                        "type": "string"
+                                    }
+                                }
+                            },
+                            "required": [
+                                "awardOrFellowshipName"
+                            ]
+                        }
+                    },
+                    "computeResourcesAcknowledged": {
+                        "type": "array",
+                        "description": "Compute resources acknowledged for their contributions to the research.",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "resourceName": {
+                                    "type": "string",
+                                    "description": "The name of the compute resource."
+                                },
+                                "provider": {
+                                    "type": "string",
+                                    "description": "The provider or organization managing the compute resource."
+                                }
+                            },
+                            "required": [
+                                "resourceName"
+                            ]
+                        }
+                    },
+                    "donatedResources": {
+                        "type": "array",
+                        "description": "Donated resources acknowledged for their contributions to the research.",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "resourceName": {
+                                    "type": "string",
+                                    "description": "The name of the donated resource."
+                                },
+                                "donor": {
+                                    "type": "string",
+                                    "description": "The donor or organization providing the resource."
+                                }
+                            },
+                            "required": [
+                                "resourceName"
+                            ]
+                        }
+                    },
+                    "reviewersAcknowledged": {
+                        "type": "array",
+                        "description": "Reviewers acknowledged for their contributions to the research.",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "name": {
+                                    "type": "string",
+                                    "description": "The name of the reviewer."
+                                },
+                                "role": {
+                                    "type": "string",
+                                    "description": "The role or contribution of the reviewer in the research.",
+                                    "enum": [
+                                        "feedback"
+                                    ]
+                                }
+                            },
+                            "required": [
+                                "name",
+                                "role"
+                            ]
+                        }
+                    },
+                    "disclosures": {
+                        "type": "array",
+                        "description": "Links to disclosure documents.",
+                        "items": {
+                            "type": "string",
+                            "format": "uri"
+                        }
+                    },
+                    "softwareFrameworksAcknowledged": {
+                        "type": "array",
+                        "description": "Software frameworks acknowledged for their contributions to the research.",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "frameworkName": {
+                                    "type": "string",
+                                    "description": "The name of the software framework."
+                                },
+                                "provider": {
+                                    "type": "string",
+                                    "description": "The provider or organization managing the software framework."
+                                }
+                            },
+                            "required": [
+                                "frameworkName"
+                            ]
+                        }
+                    },
+                    "technicalSupportAcknowledged": {
+                        "type": "array",
+                        "description": "Technical support acknowledged for their contributions to the research.",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "supportType": {
+                                    "type": "string",
+                                    "description": "The type of technical support provided."
+                                },
+                                "provider": {
+                                    "type": "string",
+                                    "description": "The provider or organization providing the technical support."
+                                }
+                            },
+                            "required": [
+                                "supportType"
+                            ]
+                        }
+                    },
+                    "additionalAcknowledgments": {
+                        "type": "array",
+                        "description": "Additional acknowledgments that do not fit into predefined categories.",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "category": {
+                                    "type": "string",
+                                    "description": "The category of the acknowledgment."
+                                },
+                                "details": {
+                                    "type": "string",
+                                    "description": "Details about the acknowledgment, such as names or descriptions."
+                                }
+                            },
+                            "required": [
+                                "category",
+                                "details"
+                            ]
+                        }
+                    },
+                    "institutionalAffiliations": {
+                        "type": "array",
+                        "description": "Institutional affiliations acknowledged for their contributions to the research.",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "affiliationName": {
+                                    "type": "string",
+                                    "description": "The name of the institution or organization."
+                                },
+                                "role": {
+                                    "type": "string",
+                                    "description": "The role or contribution of the affiliation in the research.",
+                                    "enum": [
+                                        "research_contribution",
+                                        "administrative_support"
+                                    ]
+                                }
+                            },
+                            "required": [
+                                "affiliationName",
+                                "role"
+                            ]
+                        }
+                    }
+                },
+                "required": [
+                    "individualsAcknowledged",
+                    "fundingSources",
+                    "datasetsAcknowledged",
+                    "awardsAndFellowships",
+                    "computeResourcesAcknowledged",
+                    "donatedResources",
+                    "reviewersAcknowledged",
+                    "softwareFrameworksAcknowledged"
+                ]
+            }
+        }
+    },
+    "required": [
+        "acknowledgments"
+    ]
+}

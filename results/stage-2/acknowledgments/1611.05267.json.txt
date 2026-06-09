@@ -1,0 +1,1 @@
+Acknowledgments: Thanks to Bharat Singh and the group at MERL for discussions on their dataset and for letting us use the spatiotemporal features as input into our model. We also thank Alexander Richard for his 50 Salads predictions.

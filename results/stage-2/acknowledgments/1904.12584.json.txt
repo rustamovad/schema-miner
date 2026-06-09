@@ -1,0 +1,1 @@
+Acknowledgements. We thank Kexin Yi, Haoyue Shi, and Jon Gauthier for helpful discussions and suggestions. This work was supported in part by the Center for Brains, Minds and Machines (NSF STC award CCF-1231216), ONR MURI N00014-16-1-2007, MIT-IBM Watson AI Lab, and Facebook.

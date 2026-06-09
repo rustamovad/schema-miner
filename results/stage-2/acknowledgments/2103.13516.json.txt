@@ -1,0 +1,1 @@
+Acknowledgements: We are thankful to Dr. Vicky Kalogeiton and Prof. Dr. Bastian Leibe for their insightful feedback. We are also thankful to our annotators for their hard work. This work has received funding from the European Union's Horizon 2020 research and innovation programme under the grant agreement No. 899739.

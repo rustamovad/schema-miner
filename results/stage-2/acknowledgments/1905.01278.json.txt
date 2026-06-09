@@ -1,0 +1,1 @@
+Acknowledgement. We thank Thomas Lucas, Matthijs Douze, Francisco Massa and the rest of Thoth and FAIR teams for their help and fruitful discussions. We also thank the anonymous reviewers for their thoughtful feedback. Julien Mairal was funded by the ERC grant number 714381 (SOLARIS project).

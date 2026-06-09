@@ -1,0 +1,1 @@
+Acknowledgments. We thank the authors of [14] for sharing their codebase and features, and Samuel Albanie, in particular, for his help with implementation details. This work was supported in part by the ANR project AVENUE.

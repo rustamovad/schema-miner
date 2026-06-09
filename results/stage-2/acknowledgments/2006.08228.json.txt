@@ -1,0 +1,1 @@
+This work was supported by the Novartis Research Foundation. We thank the anonymous reviewers for their valuable input. Further thanks go to David Belius, Ivan Dokmanić, and Yue (Kris) Wu for helpful discussions. Finally, we would like to thank the JAX and neural-tangents teams for developing libraries that make NTK computation fast and straightforward.

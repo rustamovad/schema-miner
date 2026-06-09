@@ -1,0 +1,1 @@
+We gratefully acknowledge the support by the Deutsche Forschungsgemeinschaft (DFG) under Grant No. RI 658/25-2. We also acknowledge the support of NVIDIA Corporation with the donation of the Titan Xp GPU used for this research.

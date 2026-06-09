@@ -1,0 +1,1 @@
+This work was supported financially by the Canada Research Chairs Program, the Natural Sciences and Engineering Research Council of Canada, and a Google Cloud Academic Research Grant. We also acknowledge Compute Canada, an NVIDIA GPU Grant, and the TPU Research Cloud Program for hardware support.

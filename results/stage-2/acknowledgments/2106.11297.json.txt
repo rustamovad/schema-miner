@@ -1,0 +1,1 @@
+We thank Dmitry Kalashnikov, Andy Zeng, and Robotics at Google NYC team members for valuable discussions on attention mechanisms.

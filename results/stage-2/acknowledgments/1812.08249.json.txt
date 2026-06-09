@@ -1,0 +1,1 @@
+Work was completed while JCS was an intern at Google Research. We thank our colleagues for their helpful feedback, including Cordelia Schmid, George Toderici, and Carl Vondrick.

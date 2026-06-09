@@ -1,0 +1,1 @@
+Next, we relate the left hand side of the inequality above to cos(γ l , γg ), thereby obtaining an upper bound on [1 -cos 2 (γ l , γg )], which will then be used to bound | Sn (γ l ) -Sn (γ g )|.

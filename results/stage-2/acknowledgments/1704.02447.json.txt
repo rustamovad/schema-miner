@@ -1,0 +1,1 @@
+We thank Dushyant Mehta and Helge Rhodin for helping about evaluating on MPI-INF-3DHP dataset and thank Danlu Chen for help with Fig. 2 . Also, we thank Wei Zhang for helpful discussion. This work is supported in part by the National Natural Science Foundation of China (#U1611461, #61572138), Shanghai Municipal Science and Technology Commission (#16JC1420401).

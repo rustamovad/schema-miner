@@ -1,0 +1,1 @@
+Acknowledgments We thank Kevin Montrose and the rest of the Stack Exchange team for providing the raw query log.

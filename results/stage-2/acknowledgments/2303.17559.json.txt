@@ -1,0 +1,1 @@
+Acknowledgement. We gratefully acknowledge the support of MindSpore, CANN (Compute Architecture for Neural Networks) and Ascend AI Processor used for this research.

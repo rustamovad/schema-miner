@@ -1,0 +1,1 @@
+robustness to detection noise, we expect our approach to be useful in designing top-down multi-person pose estimation systems in the future.

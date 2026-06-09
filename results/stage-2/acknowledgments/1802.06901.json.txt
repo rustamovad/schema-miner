@@ -1,0 +1,1 @@
+We thank support by AdeptMind, eBay, TenCent and NVIDIA. This work was partly supported by Samsung Advanced Institute of Technology (Next Generation Deep Learning: from pattern recognition to AI) and Samsung Electronics (Improving Deep Learning using Latent Structure). We also thank Jiatao Gu for valuable feedback.

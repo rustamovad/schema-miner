@@ -1,0 +1,1 @@
+We give our special thanks to Stefan Hörmann for his assistance to this work. We also gratefully acknowledge the support of NVIDIA Corporation with the donation of the Titan Xp GPU and Jetson TX2 Development Kit used for this research.

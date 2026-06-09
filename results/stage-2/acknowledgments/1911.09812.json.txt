@@ -1,0 +1,1 @@
+We thank Jiateng Xie, Guillaume Lample and Emma Strubell for sharing their code and embeddings, and for their helpful replies on Github issues and e-mail. Also thanks to Tasnim Mohiuddin for a useful discussion on the hyperparameters of the Word Translation model.

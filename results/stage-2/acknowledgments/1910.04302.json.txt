@@ -1,0 +1,1 @@
+We thank Ian Goodfellow, Andriy Mnih, Aaron Van den Oord, and Laurent Dinh for their comments. Francisco J. R. Ruiz is supported by the European Union's Horizon 2020 research and innovation programme under the Marie Skłodowska-Curie grant agreement No. 706760. Adji B. Dieng is supported by a Google PhD Fellowship.

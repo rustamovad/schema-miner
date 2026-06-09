@@ -1,0 +1,1 @@
+We thank G. Hinton for useful comments. This work was supported by the Center for Brains, Minds and Machines (CBMM), funded by NSF STC award CCF 1231216.

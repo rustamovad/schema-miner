@@ -1,0 +1,1 @@
+We specially thank Xiuye Gu for preparing the Objects365 dataset. We thank Mohammad Norouzi, Simon Kornblith, Tsung-Yi Lin, Allan Jabri, and Kevin Swersky for the helpful discussions.

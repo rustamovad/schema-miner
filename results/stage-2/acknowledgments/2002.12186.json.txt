@@ -1,0 +1,1 @@
+Acknowledgement. We would like to thank the real drone-view video providers, Regal Animus and FlyLow. Their data helps us verify our dataset and models.

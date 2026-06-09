@@ -1,0 +1,1 @@
+This work is funded by Toyota Motor Europe via the research project TRACE-Zurich. We thank NVIDIA for GPUs, Amazon Activate for EC2 credits, and Leonhard cluster at ETH Zurich for the compute. We also thank Martin Danelljan, Roman Andreev, and anonymous reviewers for the valuable feedback and time spent.

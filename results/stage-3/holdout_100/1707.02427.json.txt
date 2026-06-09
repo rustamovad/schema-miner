@@ -1,0 +1,1 @@
+Acknowledgements: This research was supported by German Research Foundation DFG within Priority Research Programme 1894 Volunteered Geographic Information: Interpretation, Visualisation and Social Computing.

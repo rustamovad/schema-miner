@@ -1,0 +1,1 @@
+We thank Nando de Freitas and Yee Whye Teh for great discussions on the paper. This work was supported by a Xerox Foundation Award, EPSRC grant number EP/F042728/1, and EPSRC grant number EP/K036580/1.

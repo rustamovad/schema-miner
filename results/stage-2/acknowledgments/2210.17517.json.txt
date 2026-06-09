@@ -1,0 +1,1 @@
+2020. Language models are few-shot learners. In Advances in Neural Information Processing Systems, volume 33, pages 1877-1901. Curran Associates, Inc. Edward W. Ayers, and Stanislas Polu. 2021. Proof artifact co-training for theorem proving with language models. ArXiv, abs/2102.06203.

@@ -1,0 +1,1 @@
+We thank Xi Yin for her contributions to this project while she was in Microsoft. We thank Xiyang Dai for his conjecture that C4 arch is better than FPN because C4 arch makes better use of ImageNet initialization weights.

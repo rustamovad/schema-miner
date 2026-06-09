@@ -1,0 +1,1 @@
+We would like to thank Yann Dauphin, Vincent Dumoulin, Aaron Courville, Kyle Kastner, Dustin Webb, Li Yao and Aaron Van den Oord for discussions and feedback. Vincent Dumoulin provided code for visualization. We are grateful towards the developers of Theano (Bergstra et al., 2011; Bastien et al., 2012) and Pylearn2 (Goodfellow et al., 2013) , and for the computational resources

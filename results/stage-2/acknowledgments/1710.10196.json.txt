@@ -1,0 +1,1 @@
+We would like to thank Mikael Honkavaara, Tero Kuosmanen, and Timi Hietanen for the compute infrastructure. Dmitry Korobchenko and Richard Calderwood for efforts related to the CELEBA-HQ dataset. Oskar Elek, Jacob Munkberg, and Jon Hasselgren for useful comments.

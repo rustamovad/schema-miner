@@ -1,0 +1,232 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Scientific Acknowledgment Schema",
+    "description": "A JSON schema for extracting and representing acknowledgments in scientific publications.",
+    "type": "object",
+    "properties": {
+        "acknowledgments": {
+            "type": "array",
+            "description": "An array of acknowledgment entries.",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "individuals": {
+                        "type": "array",
+                        "description": "Individual contributors acknowledged in the research, including those involved in discussions or comments on drafts.",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "name": {
+                                    "type": "string",
+                                    "description": "The name of the individual being acknowledged."
+                                },
+                                "role": {
+                                    "type": "array",
+                                    "description": "Roles or contributions of the individual in the research, such as discussions or comments.",
+                                    "items": {
+                                        "type": "string"
+                                    }
+                                },
+                                "affiliation": {
+                                    "type": "string",
+                                    "description": "(Optional) The affiliation of the individual."
+                                }
+                            },
+                            "required": [
+                                "name",
+                                "role"
+                            ]
+                        }
+                    },
+                    "organizations": {
+                        "type": "array",
+                        "description": "Organizations acknowledged in the research, including funding bodies and donors.",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "entity": {
+                                    "type": "string",
+                                    "description": "The name or identifier of the organization being acknowledged."
+                                },
+                                "role": {
+                                    "type": "array",
+                                    "description": "Roles or contributions of the entity in the research, such as funding.",
+                                    "items": {
+                                        "type": "string"
+                                    }
+                                },
+                                "affiliation": {
+                                    "type": "string",
+                                    "description": "(Optional) The affiliation of the organization."
+                                }
+                            },
+                            "required": [
+                                "entity",
+                                "role"
+                            ]
+                        }
+                    },
+                    "funding": {
+                        "type": "array",
+                        "description": "Funding sources supporting the research.",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "body": {
+                                    "type": "string",
+                                    "description": "The name of the funding body or organization."
+                                },
+                                "grantNumber": {
+                                    "type": "array",
+                                    "description": "Grant numbers or identifiers provided by the funding body.",
+                                    "items": {
+                                        "type": "string"
+                                    }
+                                },
+                                "projectName": {
+                                    "type": "string",
+                                    "description": "(Optional) The name of the project funded."
+                                },
+                                "website": {
+                                    "type": "string",
+                                    "description": "(Optional) Website or URL for more information about the funding body/project."
+                                }
+                            },
+                            "required": [
+                                "body",
+                                "grantNumber"
+                            ]
+                        }
+                    },
+                    "reviewers_and_senior_area_chairs": {
+                        "type": "array",
+                        "description": "Reviewers and senior area chairs acknowledged in the research.",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "name": {
+                                    "type": "string",
+                                    "description": "(Optional) The name of the reviewer or senior area chair."
+                                },
+                                "role": {
+                                    "type": "array",
+                                    "description": "Roles such as 'reviewer', 'meta-reviewer', 'senior area chair'.",
+                                    "items": {
+                                        "type": "string"
+                                    }
+                                }
+                            },
+                            "required": [
+                                "role"
+                            ]
+                        }
+                    },
+                    "illustrations_and_figures": {
+                        "type": "array",
+                        "description": "Acknowledgments for illustrations and figures.",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "individual": {
+                                    "type": "string",
+                                    "description": "The name of the individual who contributed to an illustration or figure."
+                                },
+                                "figureReference": {
+                                    "type": "string",
+                                    "description": "A reference to a specific figure in the publication (e.g., 'Figure 1')."
+                                }
+                            },
+                            "required": [
+                                "individual",
+                                "figureReference"
+                            ]
+                        }
+                    },
+                    "experimental_settings_contributors": {
+                        "type": "array",
+                        "description": "Contributors acknowledged for their contributions to the experimental settings.",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "name": {
+                                    "type": "string",
+                                    "description": "The name of the individual contributing to the experimental settings."
+                                },
+                                "role": {
+                                    "type": "array",
+                                    "description": "Roles or contributions related to the experimental settings.",
+                                    "items": {
+                                        "type": "string"
+                                    }
+                                }
+                            },
+                            "required": [
+                                "name",
+                                "role"
+                            ]
+                        }
+                    },
+                    "additional_acknowledgments": {
+                        "type": "array",
+                        "description": "Additional acknowledgments that do not fit into other categories, such as general thanks or support.",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "entity_or_individual": {
+                                    "type": "string",
+                                    "description": "The name of the entity or individual being acknowledged."
+                                },
+                                "role": {
+                                    "type": "array",
+                                    "description": "Roles or contributions, such as support.",
+                                    "items": {
+                                        "type": "string"
+                                    }
+                                }
+                            },
+                            "required": [
+                                "entity_or_individual",
+                                "role"
+                            ]
+                        }
+                    },
+                    "hardware_donations_and_access": {
+                        "type": "array",
+                        "description": "Acknowledgments for hardware donations and access to computing resources.",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "donor": {
+                                    "type": "string",
+                                    "description": "(Optional) The name of the donor or organization providing hardware."
+                                },
+                                "hardwareType": {
+                                    "type": "array",
+                                    "description": "Types of hardware donated, such as GPUs or TPU pods.",
+                                    "items": {
+                                        "type": "string"
+                                    }
+                                },
+                                "usagePhase": {
+                                    "type": "string",
+                                    "description": "The phase in which the hardware was used (e.g., development, testing)."
+                                }
+                            },
+                            "required": [
+                                "hardwareType",
+                                "usagePhase"
+                            ]
+                        }
+                    }
+                },
+                "required": [
+                    "funding",
+                    "reviewers_and_senior_area_chairs"
+                ]
+            }
+        }
+    },
+    "required": [
+        "acknowledgments"
+    ]
+}
